@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "npm": {
+      "command": "node",
+      "args": [
+        "/Users/u634226/Documents/MisProyectos/myMcp/npmMcp/dist/main.js"
+      ],
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  }
+}

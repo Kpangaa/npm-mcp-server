@@ -1,0 +1,40 @@
+{
+  "name": "npm-mcp-server",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/main.js",
+    "dev": "node --watch dist/main.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mcp",
+    "npm",
+    "server",
+    "model-context-protocol"
+  ],
+  "author": {
+    "name": "Kpangaa",
+    "url": "https://github.com/Kpangaa"
+  },
+  "license": "MIT",
+  "description": "MCP Server para interactuar con npm y sus servicios",
+  "homepage": "https://github.com/Kpangaa/npm-mcp-server",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kpangaa/npm-mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kpangaa/npm-mcp-server/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.15.1",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^22.16.4",
+    "typescript": "^5.8.3"
+  }
+}
